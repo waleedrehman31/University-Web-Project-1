@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/semantic.css">
+    <link rel="stylesheet" href="style/semantic.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <div>
+		<div class="navdiv">
+			<div class="logo">
+        <h1 class="logoheading">CLEVER TECH's</h1>
+        <p class="miniLogoHeading">SOFTWARE SOLUTION</p>
+			</div>
+			<nav class="nav">
+				<ul class="list">      
+					<li class="listLi"><a href="index.html" >Home</a></li>
+          <li class="listLi"><a href="./pricePlan.html"  class="current">Our Price</a></li>
+          <li class="listLi"><a href="./aboutus.html">About Us</a></li>
+          <li class="listLi"><a href="./Order.html">Place Order</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="line"></div>
+    </div>
+
+  <center>
+    <h1>Our Prices</h1>
+    <div class="priceTable">
+      <table border="1"  class="ui fixed single line celled inverted table">
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Webpage</td>
+            <td>$10,000</td>
+            <td>Two Week+</td>
+          </tr>
+          <tr>
+            <td>Adroid App</td>
+            <td>$20,000</td>
+            <td>1 Month+</td>
+          </tr>
+          <tr>
+            <td>School Managment System</td>
+            <td>$5,000</td>
+            <td>Under One Week</td>
+          </tr>
+          <tr>
+            <td>CRM</td>
+            <td>$30,500</td>
+            <td>5 Month+</td>
+          </tr>
+          <tr>
+            <td>Banner/BillBoard</td>
+            <td>$500</td>
+            <td>5 days</td>
+          </tr>
+          <tr>
+            <td>Video/Cinematography</td>
+            <td>$1000</td>
+            <td>Own Your Demand</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </center>
+
+  <div class="ui divider"></div>
+
+  <center>
+    <h1>Price Calculator </h1>
+    <div class="calculatorForm">
+      <form action="GET" name="calculatePriceForm" class="ui form">
+        <div class="field">
+          <label>Enter Your Hours Required</label>
+          <input type="text" name="hrsRequired" placeholder="2">
+        </div>
+
+        <div class="field">
+          <label>Enter An Amount</label>
+          <input type="text" name="keyWord" placeholder="$2000">
+        </div>
+
+        <button class="ui primary button" type="submit" onclick="finalPriceDisplay()">Submit</button>
+      </form>
+
+      <BR>
+      <p>Your Total Price Is<p id="Price"></p></p>
+    </div>
+  </center>
+
+<BR>
+
+  <footer>
+    <div class="myfooter">
+      <p class="footer-text"> &copy 2021 all right reserved <b><a href="https://wr-portfolio.tk/" class="myname">Waleed ur Rehman</a></b> </p>
+    </div>
+  </footer>
+  
+  <script src="app.js"></script>
+</body>
+</html>

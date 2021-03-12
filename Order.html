@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/semantic.css">
+    <link rel="stylesheet" href="style/semantic.min.css">
+    <title>Place Order</title>
+</head>
+<body>
+  <div class="navdiv">
+    <div class="logo">
+      <h1 class="logoheading">CLEVER TECH's</h1>
+      <p class="miniLogoHeading">SOFTWARE SOLUTION</p>
+    </div>
+      <nav class="nav">
+        <ul class="list">      
+          <li class="listLi"><a href="index.html" >Home</a></li>
+          <li class="listLi"><a href="./pricePlan.html">Our Price</a></li>
+          <li class="listLi"><a href="./aboutus.html">About Us</a></li>
+          <li class="listLi"><a href="./Order.html"   class="current">Place Order</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="line"></div>
+  </div>
+
+<div class="backgroundOrder">
+  <center>
+    <div class="guidToPlaceOrder">
+      <div class="ui form">
+        <div class="ui message">
+          <div class="header"><h1>Learn How to Place Your Order</h1></div>
+          <ol class="list">
+            <li>Enter Your Full Name.</li>
+            <li>Enter Your Valid Email.</li>
+            <li>Choose What you Want To Build.</li>
+            <li>And Attached Your Requirments File.<BR>
+              (NOTE)Make Sure File Have Valid Extentions (E.G PDF, Word).</li>
+            <li>Leave Some Additional Message</li>
+            <li>Click on Submit Button</li>
+            <li>You Recive File Submission Message.</li>
+          </ol>
+        </div>
+    </div>
+  </div>
+  </center>
+
+  <div class="ui divider"></div>
+
+  <center>
+    <h1 class="Headings2">Place Your Order</h1>
+    <div class="orderForm">
+      <form action="POST" name="orderForm" class="ui large form">
+        <div class="field"> 
+          <label>First Name</label>
+          <input type="text" name="name" placeholder="First Name">
+        </div>
+
+        <div class="field">
+          <label>Last Name</label>
+          <input type="text" name="last-name" placeholder="Last Name">
+        </div>
+
+        <div class="field">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="example@domain.com">
+        </div>
+
+        <div class="field">
+          <label>Requirments</label>
+          <input type="file" name="requireFlies">
+        </div>
+
+        <div class="field">
+          <label>Short Message</label>
+          <textarea rows="2" autocomplete="off"></textarea>
+        </div>
+
+        <div class="ui form">
+          <div class="field">
+            <label>Select Gender</label>
+            <select>  
+              <option value="1">Male</option>
+              <option value="0">Female</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="ui form">
+          <div class="field">
+            <label>Select Service</label>
+            <select>
+              <option value="">Select one</option>
+              <option value="0">Webpage</option>
+              <option value="1">Banner Design</option>
+              <option value="2">School Webpage</option>
+              <option value="3">CRM</option>
+              <option value="4">Flyer Design</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="ui checkbox">
+            <input type="checkbox" tabindex="0" class="hidden">
+            <label>I agree to the Terms and Conditions</label>
+          </div>
+        </div>
+        <button class="ui primary button" type="submit" onclick="checkFormDisplay()">Submit</button>
+      </form>
+    </div>
+  </center>
+</div>
+
+  <BR>
+  <BR>
+  <BR>
+    <footer>
+      <div class="myfooter">
+        <p class="footer-text"> &copy 2021 all right reserved <b><a href="https://wr-portfolio.tk/" class="myname">Waleed ur Rehman</a></b> </p>
+      </div>
+    </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

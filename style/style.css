@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+.navdiv {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  align-items: center;
+}
+
+.logo h1 {
+  color: black;
+}
+
+.miniLogoHeading {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  margin-top: -18px;
+}
+
+.list .listLi a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.list .listLi a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.nav .list {
+  list-style-type: none;
+  text-decoration: none;
+}
+.nav .list {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  width: 350px;
+}
+
+.nav .list .current {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.line {
+  background-color: black;
+  height: 5px;
+  width: 100%;
+}
+
+.background {
+  background-image: url("../images/background/bg.jpg");
+  height: 580px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background2 {
+  background-image: url("../images/background/bg2.jpg");
+  height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headngBackground {
+  display: flex;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+}
+
+.mainHeading {
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
+
+.slogon {
+  margin-top: 10px;
+  width: 300px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.Headings {
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 15px;
+}
+
+.ourTeamTable {
+  align-items: center;
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.ourTeamTable,
+.a {
+  background-color: black;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+  padding: 8px;
+}
+
+.sectionTwo {
+  color: white;
+}
+
+.secondHeading {
+  /* padding-top: 15px; */
+  margin-top: 500px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  font-size: 50px;
+  width: 350px;
+  text-align: center;
+}
+
+.ourServiceList {
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 425px;
+  text-align: center;
+}
+
+.myfooter {
+  background-color: black;
+  height: 26px;
+  width: 100vw;
+  margin-top: -18px;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  padding: 5px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.recentProject {
+  display: flex;
+  justify-content: space-around;
+}
+
+.calculatorForm {
+  width: 500px;
+}
+
+.priceTable {
+  width: 1000px;
+}
+
+.orderForm {
+  width: 900px;
+}
+
+.guidToPlaceOrder {
+  width: 900px;
+  margin: 20px;
+}
+
+.ourTeam {
+  margin: 60px;
+}
+
+.teamHeading {
+  text-align: center;
+}
+
+.recentParagraph {
+  text-align: center;
+}
